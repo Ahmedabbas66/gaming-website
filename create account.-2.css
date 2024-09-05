@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(ee.jpg);
+    object-fit: cover;
+}
+.BODY{
+    width: 100%;
+    height: auto;
+}
+.sign-in-block{
+    width: 30%;
+    margin-left: 65%;
+    margin-right: 5%;
+    margin-top: 30px;
+    height: 600px;
+    background-color: rgb(235, 234, 234);
+    border: none;
+    
+}
+.label{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.label-1{
+    font-size: 20px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: rgb(185, 181, 181);
+}
+.input{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 200px;
+}
+#user-name{
+    width: 90%;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    font-size: larger;
+    background-color: rgb(247, 246, 246);
+    border: 2px solid rgb(214, 214, 214);
+}
+.submit{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(250, 235, 215, 0);
+    border-radius: 15px;
+    z-index: 0;
+
+}
+#submit{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-image: url(a.png);
+    opacity:0.3;
+    border: none;
+}
+.create-email{
+    width: 50px;
+    height: 50px;
+}
+.create-email i{
+    width: 100%;
+    height: 100%;
+}
+.create-email{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+    color: rgb(181, 181, 181);
+}
+.create-email a{
+    text-decoration: none;
+    color: rgba(254, 56, 1, 0.858);
+}
+.CREATE{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    margin-top: -250px;
+    margin-left: 70px;
+}
+.check{
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+}

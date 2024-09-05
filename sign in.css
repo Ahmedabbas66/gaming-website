@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(arcane_dsktp_centerAlignedCrd_BG_2x_3.jpg);
+    object-fit: cover;
+}
+.BODY{
+    width: 100%;
+    height: auto;
+}
+.sign-in-block{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 30px;
+    height: 600px;
+    background-color: rgb(235, 234, 234);
+    /* border: 2px solid rgb(214, 214, 214);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  black; */
+    
+}
+.label{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.input{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 200px;
+}
+#user-name{
+    width: 90%;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    font-size: larger;
+    background-color: rgb(247, 246, 246);
+    border: 2px solid rgb(214, 214, 214);
+}
+#pass-word{
+    width: 90%;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    font-size: larger;
+    background-color: rgb(247, 246, 246);
+    border: 2px solid rgb(214, 214, 214);
+}
+.submit{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(250, 235, 215, 0);
+    border-radius: 15px;
+    z-index: 0;
+
+}
+#submit{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-image: url(a.png);
+    border: none;
+}
+.create-email{
+    width: 50px;
+    height: 50px;
+}
+.create-email i{
+    width: 100%;
+    height: 100%;
+}
+.create-email{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    color: rgb(181, 181, 181);
+}
+.create-email a{
+    text-decoration: none;
+    color: rgba(254, 56, 1, 0.858);
+}
+.create-email a :hover{
+    text-decoration: none;
+    color: rgb(254, 1, 1);
+    
+}
+.CREATE{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}

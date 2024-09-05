@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="work-with-us.css">
+</head>
+<body>
+    <center>
+        <div class="section-1">
+            <h1 class="title-section-1">
+                Riot Games Around The World
+            </h1>
+            <div class="discribtion-section-1">
+                Riot’s HQ is in Los Angeles but we build and support games in offices around the world. Take a <br><br>
+                tour through all our offices and meet the Rioters who work there delivering value to players <br><br>
+                each and every day.<br><br>
+            </div>
+        </div>
+    </center>
+    <div class="section-3">
+        <div class="main-title">
+            Frequently Asked <br> Questions
+        </div>
+        <div class="section-3-part-1">
+            <h3>
+                I don't live in any of the cities with a Riot <br>
+                 office. Is there an opportunity to work remotely?
+            </h3>
+            <div>
+                It's highly unlikely that we'll be able to consider you for a role that isn't<br><br>
+                based out of one of the locations where we currently do business. If <br><br>
+                you're open to relocating, please make sure to indicate that in your<br><br>
+                application.​<br><br><br>
+            </div>
+        </div>
+        <div class="section-3-part-2">
+            <h3>
+                I want to work at one of Riot's global offices<br><br>
+                but I’m not a citizen of that country. Is that<br><br>
+                possible?<br><br><br>
+            </h3>
+            <div>
+                Working globally depends on the immigration restrictions of the relevant<br><br>
+                country/region. If you apply to a role in a global office, those recruiting <br><br>
+                teams will respond if they see a match.<br><br><br>
+            </div>
+        </div>
+        <div class="section-3-part-3">
+            <h3>
+                Can I apply for multiple jobs?
+            </h3>
+            <div>
+                We want applicants to think deeply about their skills and interest—and<br><br>
+                how they line up with the jobs available at Riot. It's not a good sign if you<br><br>
+                find yourself applying to as many open positions as possible.<br><br><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

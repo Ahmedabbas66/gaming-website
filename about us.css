@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner-1{
+    height: 450px;
+    width: 100%;
+    position: relative;
+    background-image: url(about-4.jpg);
+}
+.banner-1-div{
+    height: 85%;
+    width: 40%;
+    position: absolute;
+    top: 7.5%;
+    bottom: 7.5%;
+    left: 125px;
+}
+.banner-1-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-1-div-2{
+    font-size: 100px;
+    position: absolute;
+    right: 25%;
+    top: 20%;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue','Arial';
+}
+.section-1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-1{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.discribtion-1{
+    color: rgb(72, 70, 70);
+    text-align: left;
+    font-size: 20px;
+    margin-left: 27%;
+}
+.section-2{
+    height: 700px;
+    width: 100%;
+    position: relative;   
+}
+.text-section-2{
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    right: 200px;
+    top: 250px;
+}
+.text-2{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.discribtion-2{
+    color:rgb(72, 70, 70);
+    font-size: 20px;
+    text-align: left;
+}
+.img-section-2{
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    width: 500px;
+    left: 150px;
+}
+.img-section-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-3{
+    height: 600px;
+    width: 100%;
+    position: relative;   
+}
+.text-section-3{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+.text-3{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.discribtion-3{
+    color: rgb(72, 70, 70);
+    font-size: 20px;
+    text-align: left;
+}
+.img-section-3{
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    width: 500px;
+    right: 150px;
+}
+.img-section-3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-4{
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(54, 52, 52);
+    color: azure;
+    position: relative;
+}
+.section-4 h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 60px;
+    right: 37%;
+}
+.section-4 p{
+    position: absolute;
+    top: 160px;
+    right: 27%;
+}
+.section-5{
+    height: 500px;
+    background-color: white;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue','Arial';
+    padding-top: 100px;
+    background-image: url(05-17.png);
+    background-size: 100%;
+}
+.section-5 h1{
+    color: white;
+    margin-top: 300px;
+    font-family: 'Bebas Neue','Arial';
+}

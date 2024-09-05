@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="create account.-3.css">
+    <title>create you account</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body class="theme-arcane.grid-page-web.theme__section-signup">
+    <div class="BODY">
+        <form action="index-home.html" method="post">
+            <div class="sign-in-block">
+                <br><br><br><br>
+                <div class="label">
+                    Choose a password
+                </div>
+                <div class="label-1">
+                    Make sure it's a good one.
+                </div>
+                <div class="input">
+                    <input placeholder=" Enter your password" id="user-bass" type="text" oninput="test()" required>
+                    <div class="check">
+                        <div class="check-1">Must be Okay strength or better.</div>
+                        <div class="check-2">Password is at least 8 characters long.</div>
+                        <div class="check-3">Password contains at least one letter or <br> number</div>
+                    </div>
+                    <br>
+                    <input placeholder=" Confirm your password" id="re-bass" type="text" oninput="test()" required>
+                </div>
+                    <center>
+                        <div class="submit">
+                            <!-- <input type="submit" value="" id="submit" onmouseover="fun()" onmouseleave="fun_1()" > -->
+                            <input type="submit"value="" id="submit" onmouseover="fun()" onmouseleave="fun_1()">
+                        </div>
+                    </center>
+                <div class="create-email">
+                     <!-- <a href="sign in.html">already have an account?</a> -->
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="CREATE">
+        CREATE AN 
+    <br> ACCOUNT
+    </div>
+</body>
+<script>
+    var x =false;
+    function test(){
+    check=document.getElementById('user-bass').value
+    r=/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\S+$).{8,}$/
+    if (r.test(check)!=true) {
+        document.getElementById('submit').style.backgroundImage = "url('a.png')";
+        document.getElementById('submit').disabled = true;
+        document.getElementById("submit").style.opacity = "0.3";
+        x = false;
+    } else {
+        document.getElementById('submit').style.backgroundImage = "url('a.png')";
+        document.getElementById('submit').disabled = false;
+        document.getElementById("submit").style.opacity = "1";
+        x = true;
+    }  
+    repass=document.getElementById('re-bass').value
+    if (check!=repass) {
+        document.getElementById("submit").style.opacity = "0.3";
+        document.getElementById('submit').style.backgroundImage = "url('a.png')";
+        document.getElementById('submit').disabled = true;
+    x = false;
+    } 
+    }
+    function fun(){
+        if (x==true){
+        document.getElementById('submit').style.backgroundImage = "url('b.png')";
+        document.getElementById("submit").style.opacity = "1";
+        }
+    }
+    function fun_1(){
+        if (x==true){
+        document.getElementById('submit').style.backgroundImage = "url('a.png')";
+        document.getElementById("submit").style.opacity = "1";
+        }
+    }
+</script>
+</html>

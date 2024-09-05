@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="create account.-2.css">
+    <title>create you account</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body class="theme-arcane.grid-page-web.theme__section-signup">
+    <div class="BODY">
+        <form action="create account-3.html" method="post">
+            <div class="sign-in-block">
+                <br><br><br><br>
+                <div class="label">
+                    Choose a username
+                </div>
+                <div class="label-1">
+                    Used for sign in to all
+                    <br> our games.
+                </div>
+                <div class="input">
+                    <input placeholder=" username" id="user-name" oninput="fun_2()" type="text" required>
+                    <div class="check">
+                        <div class="check-1">The first letter for username <br> must be a captain. <br>Username is at least 3 characters long. </div>
+
+                    </div>
+                </div>
+                <center>
+                    <div class="submit">
+                        <input type="submit" value="" id="submit" onmouseover="fun()" onmouseleave="fun_1()" >
+                    </div>
+                </center>
+                <div class="create-email">
+                     <!-- <a href="sign in.html">already have an account?</a> -->
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="CREATE">
+        CREATE AN 
+    <br> ACCOUNT
+    </div>
+</body>
+<script>
+    var x = false;
+    function fun_2(){
+    test=document.getElementById('user-name').value 
+    r=/^([A-Z][a-z]{2,20})$/
+    if (r.test(test)!=true) {
+        document.getElementById('submit').style.backgroundImage = "url('a.png')";
+        document.getElementById('submit').disabled = true;
+        document.getElementById("submit").style.opacity = "0.3";
+        x = false;
+    } else {
+        document.getElementById('submit').style.backgroundImage = "url('a.png')";
+        document.getElementById('submit').disabled = false;
+        document.getElementById("submit").style.opacity = "1";
+        x = true;
+    }
+    }
+    function fun(){
+        if (x==true) {
+            document.getElementById('submit').style.backgroundImage = "url('b.png')";
+            document.getElementById("submit").style.opacity = "1";
+            
+        }
+    }
+    function fun_1(){
+        if (x==true) {
+            document.getElementById('submit').style.backgroundImage = "url('a.png')";
+            document.getElementById("submit").style.opacity = "1";
+        }
+    }
+</script>
+</html>

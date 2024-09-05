@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="create account.-1.css">
+    <title>create you account</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body class="theme-arcane.grid-page-web.theme__section-signup">
+    <div class="BODY">
+        <form action="create account-2.html" method="post">
+            <div class="sign-in-block">
+                <br><br><br><br>
+                <div class="label">
+                    When were you born?
+                </div>
+                <div class="label-1">
+                    Let's find out how old you are.
+                </div>
+                <div class="input">
+                    <input placeholder="enter your email" id="user-email" type="date" oninput="fun_2()" required>
+                    <!-- <input placeholder="   enter your pass word" id="pass-word" type="text" repuired> -->
+                </div>
+                <center>
+                    <div class="submit">
+                        <input type="submit" value="" id="submit" onmouseover="fun()" onmouseleave="fun_1()" >
+                    </div>
+                </center>
+                <div class="create-email">
+                     <!-- <a href="sign in.html">already have an account?</a> -->
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="CREATE">
+        CREATE AN 
+    <br> ACCOUNT
+    </div>
+</body>
+<!-- <script>
+    function fun(){
+        document.getElementById('submit').style.backgroundImage = "url('b.png')";
+    }
+    function fun_1(){
+        document.getElementById('submit').style.backgroundImage = "url('a.png')";
+    }
+</script> -->
+<script>
+    var x = false;
+    function fun_2(){
+        const d = new Date("05/23/2009");
+        data=document.getElementById('user-email').value;
+    if (data < d) {
+        document.getElementById('submit').style.backgroundImage = "url('a.png')";
+        document.getElementById('submit').disabled = true;
+        document.getElementById("submit").style.opacity = "0.3";
+        x = false;
+    } else {
+        document.getElementById('submit').style.backgroundImage = "url('a.png')";
+        document.getElementById('submit').disabled = false;
+        document.getElementById("submit").style.opacity = "1";
+        x = true;
+    }
+    }
+    function fun(){
+        if (x==true) {
+            document.getElementById('submit').style.backgroundImage = "url('b.png')";
+            document.getElementById("submit").style.opacity = "1";
+            
+        }
+    }
+    function fun_1(){
+        if (x==true) {
+            document.getElementById('submit').style.backgroundImage = "url('a.png')";
+            document.getElementById("submit").style.opacity = "1";
+        }
+    }
+</script>
+</html>
